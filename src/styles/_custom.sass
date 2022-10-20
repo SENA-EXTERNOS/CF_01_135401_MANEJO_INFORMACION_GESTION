@@ -1,19 +1,430 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    width: 70px
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 9%
+    right: 48%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    width: 70px
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 41%
+    right: 85%
+  &-3
+    width: 70px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 41%
+    right: 10%
+
+//tamaño del banner principal
+.banner-principal__img 
+  width: 30%
+  z-index: 1
+
+//banner secundario---------------------------------------------------------------- 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+
+//ubicación icono sena sintesis---------------------------------------------------
+.imagen-sintesis-1
+  position: absolute
+  top: 2rem
+  right: 7%
+  width: 7%  
+
+//colores slyder tema 1------------------------------------------------------------
+.tarjeta--slyder
+  background-color: #fdf5af
+  
+.slyder-a__tipo-b .slyder-a__btn--atrs, .slyder-a__tipo-b .slyder-a__btn--sigt 
+  background-color: $color-acento-contenido
+
+.slyder-a__bullets__item--active 
+  background-color: $color-acento-contenido
+  border-color: $color-acento-contenido
+  opacity: 1;
+
+//viñeta para los títulos------------------------------------------------------------
+.vineta-titulos
+  background: url("../assets/curso/temas/icono.svg") !important
+  background-repeat: no-repeat !important
+
+.h2-vineta
+  margin-left: 2%
+
+//color bloque de texto tema 1
+.bloque-texto-b.color-primario1:before 
+  background-color: #fff3cf
+  top: 69px
+  left: 465px
+  right: 2%
+  bottom: 26px
+
+//color bloque de texto tema 2
+.bloque-texto-b.color-primario2:before 
+  background-color: #fdf5af
+  top: 90px
+  left: 257px
+  right: 2%
+  bottom: 22px
+
+//color bloque de texto tema 3
+.bloque-texto-b.color-primario3:before 
+  background-color: #fdf5af
+  top: 90px
+  left: 257px
+  right: 2%
+  bottom: 22px 
+
+//color cuadros viñetas tema1  
+.lista-ol--cuadro__vineta
+  background-color: #ff004c
+
+//colores cajon de color tema 1  
+.cajon.color-secundario
+  background-color: #ffe2eb
+
+.cajon.color-secundario:before
+  background-color: #ff004c
+
+//colores cajon de color tema 2
+.cajon.color-secundario2
+  background-color: #fee49a
+
+//color tarjeta 1 tema 2
+.tarjeta.color-acento-contenido1
+  background-color: #eeeffb
+
+//color tarjeta 2 tema 2
+.tarjeta.color-secundario1
+  background-color: #fee49a;
+
+.cajon.color-secundario2:before
+  background-color: #febf10 
+
+.cajon.color-secundario3 
+    background-color: #e6e7f5
+
+.cajon.color-secundario3:before
+    background-color: #242ca3
+
+//alinear texto a la derecha tema 1
+.texto-alineado1
+  margin-left: 74%
+
+@media( max-width: 500px )
+  .texto-alineado1
+    margin-left: 28%    
+  
+  //alinear texto a la derecha tema 2 bloque 1
+.texto-alineado2
+  margin-left: 80%
+
+@media( max-width: 500px )
+  .texto-alineado2
+    margin-left: 48%   
+
+  //alinear texto a la derecha tema 2 bloque 2
+.texto-alineado3
+  margin-left: 70%
+
+@media( max-width: 500px )
+  .texto-alineado3
+    margin-left: 17%
+
+  //alinear texto a la derecha tema 3 bloque 1
+.texto-alineado4
+  margin-left: 80%
+
+@media( max-width: 500px )
+  .texto-alineado4
+    margin-left: 43% 
 
 
-@keyframes float1
+
+//colores de las pestañas verticales Tema 1---------------------------------------------------------
+.tabs-a__tab
+  width: 184%
+  background-color: #e8e8e8;
+
+.tabs-a__content-item--active
+  margin-left: 135px
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected
+    background-color: #ff004c
+    color: #fff
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected:before 
+    background-color: #ff004c
+
+.tabs-a.color-acento-contenido .tabs-a__tab:hover, .tabs-a.color-acento-contenido .tabs-a__tab:active, .tabs-a.color-acento-contenido .tabs-a__tab:focus
+    background-color: #ff004c
+    color: #fff
+
+@media( max-width: 500px )
+  .tabs-a__content-item--active
+    margin-left: 10px
+
+
+//custom pestañas verticales tema 2  
+.tabla2.tabs-a__tab
+  width: 185% !important
+  background-color: #e8e8e8 !important
+
+.tabla2.tabs-a__content-item--active
+  margin-left: 140px !important
+
+//adordeon tema 1  
+.tarjeta.acordeonA
+  background-color: #f6f6f6 !important
+
+.acordion__activo
+  background-color: #eeeffb !important
+
+.tarjeta--azul
+ background-color: #f6f6f6      
+
+
+///// acordeon tema 2-------------------------------------- 
+.tarjeta--roja
+  background-color: #f6f6f6 !important
+
+.tarjeta--roja.acordeonA
+  background-color: #DFEAF1 !important
+
+/*.tarjeta--roja.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__accion__btn--a 
+    background-color: #fee49a
+    //box-shadow: 0px 3px 5px 0px rgb(17 30 97 / 30%)
+
+.tarjeta--roja.acordion__activo
+  background-color: #fdf5af !important
+
+//tamaño slyder tema 1---------------------------
+.tarjeta-slyder
+  width: 100%
+  height: 293px
+
+
+///custom linea tiempo C tema 2  
+.tarjeta--tiempo
+  background-color: #eeeffb
+.linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
+  background-color: #242ca3
+.linea-tiempo-c__header__btn--right:hover, .linea-tiempo-c__header__btn--left:hover
+  border: #242ca3
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: white
+.linea-tiempo-c.color-primario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot::after
+  background-color: #ffffff
+.linea-tiempo-c.color-primario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #febf10
+.linea-tiempo-c.color-primario .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-primario .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after
+    background-color: #242ca3
+.linea-tiempo-c.color-primario .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before
+    background-color: #242ca3
+.linea-tiempo-c__header__item__line-container:after, .linea-tiempo-c__header__item__line-container:before
+  content: '';
+  display: block;
+  width: 50%;
+  height: 3px;
+  background-color: #febf10
+
+
+///custom segundas tarjetas tema 2
+.tarjeta.color-primario3
+  background-color: #fffdeb
+  margin-left: 15px
+
+@media( max-width: 500px )
+  .tarjeta.color-primario3
+    background-color: #fffdeb
+    margin-left: 0px
+    margin-top: 15px
+
+
+///custom tabsC tema 2
+.tabs-c.color-acento-contenido .tabs-c__tab--active:before
+    border-top-color: #ff004c
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+    border-bottom-color: #ff004c !important;
+
+.tabs-c.fondo
+  background-color: #fffdeb  
+
+.anexo
+  display: block
+  background-color: #4c53b5
+  position: relative
+  margin-left: 30px
+  padding: 20px
+  padding-left: 50px
+  white-space: normal
+  text-align: left
+  border-radius: 10px
+
+.anexo *
+    line-height: 1.2
+    color: #ffffff
+
+.anexo:active, .anexo:focus, .anexo:hover
+    background-color: #177be5
+
+/// color fondo tarjetas finales tema 2
+.color-primario4
+  background-color: #eeeffb !important  
+
+
+.tarjeta-slide__img 
+  background-repeat: no-repeat
+  position: absolute
+  inset: 0
+  background-size: contain
+  background-position: center
+
+//color modal 1 tema 3
+.bkg.img-infografica-b
+  background-color: #fcf8ec
+
+.img-infografica-b__modal
+  background-color: #26384e
+
+
+.img250
+  position: relative;
+  width: 396px;
+  left: 86px;
+
+@media ( max-width: 500px )
+  .img250
+    position: relative;
+    width: 396px;
+    left: 86px;
+
+.imgTema4
+  position: relative;
+  width: 300px;
+  right: 24px;
+
+@media ( max-width: 500px )
+  .imgTema4
+    position: relative;
+    width: 396px;
+    left: 86px;
+
+.ubicacion-pestañas-avatar
+  margin-right: 140px;
+  left: -80px;
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -5rem
+  z-index: 1
+  @media (max-width: 500px)
+    display: none
+
+///ubicación numeros de las pestañas
+.numero
+  left: -37px;
+  position: relative
+
+@media( max-width: 500px  )
+  .numero
+    left: -20px
+    position: relative  
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h2 
+    margin: 0;
+    margin-left: -40px
+  p 
+    margin: auto
+    margin-left: -40px
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 180px
+    width: calc( 86% - 60px)
+    height: 100%
+    background-color: #eeeffb
+
+  @media (max-width: 500px)
+    padding-right: 2rem
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 24px
+      width: calc( 105% - 60px)
+      height: 100%
+      background-color: #eeeffb
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h2 
+    margin: 0;
+    margin-left: -40px
+  p 
+    margin: auto
+    margin-left: -40px
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 180px
+    width: calc( 86% - 60px)
+    height: 100%
+    background-color: #fee49a
+
+  @media (max-width: 500px)
+    padding-right: 2rem    
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 24px
+      width: calc( 105% - 60px)
+      height: 100%
+      background-color: #fee49a  
+
+
+.crd--last2
+  &::before 
+    background-color: #eeeffb !important
+.crd--first, .crd--last
+  &::before 
+    background-color: #fee49a !important
+
+.crd--first
+  &::before 
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px
+.crd--last, .crd--last2
+  &::before 
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 30px
+
+
+
+
+//animación imágenes decorativas banner principal----------------------
+@keyframes scale
   0%
-    transform: translateY(20px)
+    transform: scale(1)
 
   100%
-    transform: translateY(0px)
+    transform: scale(1.2)
