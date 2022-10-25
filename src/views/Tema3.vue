@@ -27,23 +27,23 @@
       p.mt-2 Estos son los tres criterios en los que se clasifican las bases de datos:
 
     .row.justify-content-around.align-items-center
-      ImagenInfograficaB.color-acento-botones.bkg.img-infografica-b
+      ImagenInfograficaB.color-acento-botones.bkg.img-infografica-b.p-5
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema3/t3-img2.png', alt='Texto que describa la imagen')
 
-        div(x="28%" y="8%" tooltip="tooltip de max 35 caracteres" numero="1")
+        div(x="28%" y="8%" tooltip="" numero="1")
           .h5.mb-2 Según la variabilidad:
           p #[strong ● Estáticas:] son bases de datos diseñadas en exclusiva para lectura y la cual almacena datos históricos para analizar su comportamiento a través del tiempo para hacer proyecciones, tomar decisiones y realizar inteligencia empresarial.
           p.mt-2 #[strong ● Dinámicas:] almacenan información que se puede modificar con el tiempo. Permiten actualizar, borrar y editar los datos, además de hacer operaciones fundamentales de consulta. Un ejemplo de este tipo de base de datos es la que utiliza el sistema de información de un supermercado.
 
-        div(x="70%" y="5.5%" tooltip="tooltip de max 35 caracteres" numero="2")
+        div(x="70%" y="5.5%" tooltip="" numero="2")
           .h5.mb-2 Según el Contenido
           p #[strong ● Bibliográficas:] contienen una fuente primaria que permite localizarla. Un registro típico de una base de datos bibliográfica contiene información sobre el autor, fecha de publicación, editorial, título, edición, de una determinada publicación, entre otras. Además  pueden contener un resumen o extracto de la publicación original.
           p.mt-2 #[strong ● De texto completo:] almacenan las fuentes primarias, como ejemplo se encuentran las guías telefónicas en formato electrónico.
           p.mt-2 #[strong ● Bibliotecas de información:] son bases de datos que almacenan diferente tipo de información relacionada con disciplinas científicas como química, ciencias de la vida o medicina, mismas que a su vez se dividen en varios subtipos. (Pulido et al.2019, p. 21).
 
-        div(x="65.5%" y="70%" tooltip="tooltip de max 35 caracteres" numero="3")
+        div(x="65.5%" y="70%" tooltip="" numero="3")
           .h5.mb-2 Según su modelo de base de datos
           p #[strong ● Jerárquica:] los datos se organizan en forma de árbol invertido (conocido como raíz), en donde un nodo padre de información puede tener varios hijos. 
           p.mt-2 #[strong ● De red:] es un modelo similar al jerárquico pero se diferencia de este porque permite que un mismo nodo tenga varios padres, ofreciendo una solución eficiente al problema de la redundancia de datos.
@@ -66,21 +66,21 @@
     .row.justify-content-center.mt-5
       TabsC.color-acento-contenido
         .py-3.py-md-4(titulo="Arquitectura de tres niveles").tabs-c.fondo
-          .row
+          .row.p-4
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/t3-img3.png', alt='Texto que describa la imagen')          
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.p-3
               p #[strong 1. Nivel interno o físico:] es el más cercano al almacenamiento físico. Describe los detalles de cómo se almacenan físicamente los datos: los archivos que contienen la información, su organización, los métodos de acceso a los registros, los tipos de registros, la longitud y los campos que los componen.
               p.mt-2 #[strong 2. Nivel externo o de visión:] es el más cercano a los usuarios. Cada esquema describe la parte de la BD que es de interés para un determinado grupo de usuarios, en este nivel se representa la visión individual de un usuario o de un grupo.
               p.mt-2 #[strong 3. Nivel conceptual:] describe la estructura de toda la BD para un grupo de usuarios mediante un esquema conceptual. Este esquema describe las entidades, atributos, relaciones y operaciones de los usuarios, así como las restricciones, ocultando los detalles de las estructuras físicas de almacenamiento.
         
         .py-3.py-md-4(titulo="Arquitectura de cuatro niveles").tabs-c.fondo
-          .row
+          .row.p-4
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/t3-img4.png', alt='Texto que describa la imagen')          
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.p-3
               p #[strong 1. Nivel conceptual o visión:] se describe la información de la organización (objetos y relaciones) desde un punto de vista no informático. 
               p.mt-2 #[strong 2. Nivel lógico o visión:] se representan las entidades y relaciones de acuerdo con las características de dicho modelo sin entrar en el espacio de la representación física.
               p.mt-2 #[strong 3. Nivel interno:] descripción de la representación en la memoria externa de la computadora de los datos del esquema lógico, sus interrelaciones y los instrumentos para acceder a ellos.
@@ -123,8 +123,8 @@
       p.mt-2 A continuación, se indican los pasos a seguir para realizar el procesamiento de la información:
 
     .tarjeta.tarjeta--tiempo.p-4(data-aos="fade-right")
-      LineaTiempoC.color-primario(text-small)
-        .row.justify-content-center.align-items-start(titulo="Recopilación de datos ")
+      LineaTiempoC.color-primario(text-small).p-3
+        .row.justify-content-center.align-items-start(titulo="Recopilación de datos ").p-3
           .col-lg-10
             .row
               .col-lg-5
@@ -132,7 +132,7 @@
               .col-lg-7
                 p Este es el primer paso en el procesamiento de datos y consiste en extraen los datos de diferentes fuentes, pueden ser formatos de texto, almacenes de datos, tablas y matrices generadas por fuentes externas.
         
-        .row.justify-content-center.align-items-start(titulo="Preparación de datos")
+        .row.justify-content-center.align-items-start(titulo="Preparación de datos").p-3
           .col-lg-10
             .row
               .col-lg-5

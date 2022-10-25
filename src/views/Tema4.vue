@@ -21,26 +21,26 @@
       p Debido a la amplia diversidad de los procesos de negocio y a las necesidades particulares que presentan las organizaciones, los flujos de trabajo son flexibles y se adaptan con facilidad a dichas características. A partir de su utilidad y los objetivos del proceso, es posible establecer y describir los tipos de #[i Work flow] expuestos por la Universidad Militar Nueva Granada (s.f) en #[i Sistemas de  Work Flow]. (p. 5).
 
     .row.justify-content-center.mt-3
-      .col-lg-4
-        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+      .col-lg-4.mt-3
+        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-3
+            .tarjeta-slide__contenido.p-5
               p Automatizan procesos de negocios de carácter repetitivo, estructurados y con gran número de datos.
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/t4-img2.png')})`}")
 
-      .col-lg-4
-        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+      .col-lg-4.mt-3
+        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/t4-img3.png')})`}")
-            .tarjeta-slide__contenido.py-5.p-3
+            .tarjeta-slide__contenido.p-5
               p Estructuran procesos de negocio en el que participan personas con un objetivo común. Involucran documentos denominados contenedores de información y siguen la ruta definida, además de las acciones que se toman sobre estos.
 
-      .col-lg-4
-        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+      .col-lg-4.mt-3
+        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema4/t4-img4.png')})`}")
-            .tarjeta-slide__contenido.py-5.p-3
+            .tarjeta-slide__contenido.p-5
               p Involucra procesos de administración empresarial como órdenes de compra, reportes de ventas, entre otros. Se emplean cuando existe una gran cantidad de procesos administrativos dentro de la empresa.
 
     .row.justify-content-center.mt-5

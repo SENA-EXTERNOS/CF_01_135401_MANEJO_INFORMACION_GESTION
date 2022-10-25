@@ -36,8 +36,8 @@
           h2.mb-0.h2-vineta Tipos de estadística
       p La estadística se considera una valiosa herramienta de organización, análisis, comprensión y fluidez para los procesos que conlleven la toma de decisiones, siendo útil y adaptable en el entorno organizacional. Esta disciplina se divide en dos ramas que son la estadística descriptiva y la estadística inferencial que se describen a continuación:
 
-    .tarjeta--container.row
-      .col-md.tarjeta.color-acento-contenido1.p-4
+    .tarjeta--container.row.p-3
+      .col-md.tarjeta.color-acento-contenido1.p-5
         .row.justify-content-center
           .col-11
             figure
@@ -45,7 +45,7 @@
         h3.mt-3.text-center A. Estadística descriptiva
         p.text-center Según #[strong Bologna, E. (2018)], la estadística descriptiva provee una serie de procedimientos dirigidos a resumir, sintetizar y volver manejable la información para poder interpretarla y extraer conclusiones a partir del conjunto de datos que, de otra manera, serían ininteligibles. (Métodos estadísticos de investigación, p. 15).
       
-      .col-md.tarjeta.color-secundario1.p-4
+      .col-md.tarjeta.color-secundario1.p-5
         .row.justify-content-center
           .col-11
             figure
@@ -63,37 +63,37 @@
 
     .row.justify-content-center.mt-4
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--roja")
-        .row(titulo="Análisis descriptivo")
+        .row(titulo="Análisis descriptivo").p-4
           .col-lg-7
             p Permite hacer descripciones respecto a un conjunto de datos con el fin de distinguir sus las características. Este método aporta el análisis de variables como el número de ventas realizadas, cantidad de clientes nuevos, unidades de producto disponibles en el inventario, entre otros.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img4.png', alt='Texto que describa la imagen')
-        .row(titulo="Análisis exploratorio")
+        .row(titulo="Análisis exploratorio").p-4
           .col-lg-7
             p Reconoce una comprensión básica de los datos al identificar características sobresalientes, inesperadas o con valores atípicos. Este tipo de análisis permite determinar las sucursales con un número superior de ventas, productos con mayor #[i stock], principales discrepancias entre el producto más vendido y el menos vendido, diferencias en aspectos económicos entre dos poblaciones, entre otros. Este método es un proceso descriptivo, por ende debe realizarse sin ideas preconcebidas sobre la información que aportan los datos. De este modo, en aras de evitar el procesamiento de datos inapropiados, erróneos o inadvertidos lo más aconsejable es que este análisis exploratorio sea utilizado durante la etapa inicial de todo análisis de datos.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img5.png', alt='Texto que describa la imagen')
-        .row(titulo="Análisis inferencial")
+        .row(titulo="Análisis inferencial").p-4
           .col-lg-7
             p Confirma o niega hipótesis planteadas permitiendo establecer conclusiones con cierto nivel de confianza, este tipo de métodos no garantizan certeza absoluta porque conservan algún grado de incertidumbre. Este análisis permite formular hipótesis basadas en conclusiones construidas respecto a un conjunto de datos en un entorno específico, por ejemplo: inferir que los clientes que adquieren determinado producto pertenecen a una familia numerosa (lo que los haría clientes potenciales para productos complementarios). Con el fin de garantizar efectividad en el análisis inferencial los datos deben ser diferentes a los empleados para la formulación de la hipótesis así se eliminan sesgos y se aporta validez a las conclusiones.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img6.png', alt='Texto que describa la imagen')
-        .row(titulo="Análisis predictivo")
+        .row(titulo="Análisis predictivo").p-4
           .col-lg-7
             p Identifica relaciones entre las variables en eventos pasados, así realizar proyecciones sobre posibles resultados en ocasiones futuras. Este análisis hace posible determinar la cantidad de producto que se debe tener en inventario por referencia o proyectar las principales necesidades de una población específica para los escenarios futuros; además se preocupa por el valor, no tiene como objetivo comprender el sistema o la relación entre variables, haciendo que el análisis sea funcional para estudiar problemas complejos y de amplio número de variables influyentes o de difícil comprensión.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img7.png', alt='Texto que describa la imagen')
-        .row(titulo="Análisis causal")
+        .row(titulo="Análisis causal").p-4
           .col-lg-7
             p Este tipo de análisis permite establecer relaciones de causa y efecto, identificar la influencia mutua de variables, predecir y reconocer la causa de este tipo de influencia. Además, este análisis determina aspectos como la afectación de las ventas en los productos de un portafolio respecto al día que aumentan la ventas del producto estrella, pero no las causas de este fenómeno; en otras palabras, el análisis inferencial permite identificar la relación, pero para conocer las causas es necesario implementar un análisis causal.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img8.png', alt='Texto que describa la imagen')
-        .row(titulo="Análisis mecanicista")
+        .row(titulo="Análisis mecanicista").p-4
           .col-lg-7
             p Predice y comprende la influencia entre diferentes variables siendo este análisis el más complejo porque determina cómo la alteración de los valores de una de las variables tiene impacto en las demás. Su complejidad lo hace poco utilizado debido a que requiere amplio conocimiento de los procesos a modelar. Un ejemplo de aplicabilidad de este análisis es conocer si el incremento en la inversión en publicidad y un aumento de la plantilla en el departamento de marketing influye en el incremento de ventas y cómo esta última influye en las dos anteriores.
           .col-lg-5
@@ -108,7 +108,7 @@
       p.mt-3 A continuación podrá detallar las diferentes técnicas de muestreo que se pueden utilizar:
 
     .tarjeta.tarjeta--tiempo.p-4(data-aos="fade-right")
-      LineaTiempoC.color-primario(text-small)
+      LineaTiempoC.color-primario(text-small).p-3
         .row.justify-content-center.align-items-start(titulo="Muestreos no probabilísticos")
           .col-lg-10
             .row
@@ -254,21 +254,21 @@
 
       TabsC.color-acento-contenido
         .py-3.py-md-4(titulo="Variables cuantitativas o numéricas").tabs-c.fondo
-          .row
+          .row.p-4
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema2/t2-img23.png', alt='Texto que describa la imagen')          
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.p-3
               p Son las variables que pueden medirse, cuantificarse o expresarse numéricamente, y pueden clasificarse en dos tipos:
               p.mt-3 #[strong - Variables cuantitativas discretas] no admiten todos los valores intermedios en un rango, pues suelen tomar solamente valores enteros (número de hijos, etc.). Los datos que se obtienen para variables cuantitativas discretas se cuentan.
               p.mt-3 #[strong - Variables cuantitativas continuas] admiten tomar cualquier valor dentro de un intervalo numérico determinado (longitud, peso, etc.). Los datos que se obtienen para variables cuantitativas continuas se miden a través de una escala de intervalo o de una escala proporcional (de razón).
         
         .py-3.py-md-4(titulo="Variables cualitativas").tabs-c.fondo
-          .row
+          .row.p-4
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema2/t2-img24.png', alt='Texto que describa la imagen')          
-            .col-md-6.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0.p-3
               p Representan una cualidad o atributo que clasifica a cada caso en una de varias categorías. Sus  valores no se asocian naturalmente a un número sino a una la situación más sencilla que clasifica cada caso en uno de dos grupos (hombre/mujer).
               p.mt-3 Son datos dicotómicos o binarios, en muchas ocasiones este tipo de clasificación no es suficiente y se requiere de un mayor número de categorías para su clasificación como nacionalidad, profesión, entre otros.
               p.mt-3 En el proceso de observación de estas variables se pueden utilizar dos escalas nominales u ordinarias, además estas pueden codificarse a través de números para facilitar su procesamiento, pero sin olvidar qué tipo de variables son.
@@ -285,18 +285,18 @@
     .row.justify-content-around.aling-items-center.mt-4
       .col-lg-9
         TabsA.color-acento-contenido
-          .tarjeta.p-3(style="background-color:#ffebf1" titulo="Escala nominal")
+          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala nominal")
             .row
               p Las observaciones de un carácter nominal se pueden clasificar en varias categorías, excluyentes entre sí, entre las que no es posible establecer ninguna relación de orden u operar matemáticamente. En este tipo de escala se consideran los atributos categóricos como el sexo, estado civil, tipo de contrato laboral, lugar de nacimiento, sector de actividad económica, entre otros.
-          .tarjeta.p-3(style="background-color:#ffebf1" titulo="Escala ordinal")
+          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala ordinal")
             .row
               p Las observaciones en escala ordinal se pueden clasificar en varias categorías, excluyentes entre sí, en ellas es posible establecer alguna relación de orden, pero no operar matemáticamente. Además, estas categorías se pueden ordenar, pero no cuantificar la diferencia entre ellas. En este tipo de escala se encuentran atributos ordinales como el nivel de ingresos, nivel de estudios, grado de satisfacción, entre otros.
-          .tarjeta.p-3(style="background-color:#ffebf1" titulo="Escala de intervalo")
+          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala de intervalo")
             .row
               p Las observaciones en escala de intervalo se dan cuando existe una unidad de medida que permite cuantificar la distancia existente entre dos observaciones, siendo el cero arbitrario.
               p.mt-2 En este tipo de escala se consideran algunas variables (caracteres cuantitativos) como la temperatura en grados Celsius o en grados Fahrenheit, fechas, entre otros.
 
-          .tarjeta.p-3(style="background-color:#ffebf1" titulo="Escala de razón (proporción o cociente)")
+          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala de razón (proporción o cociente)")
             .row
               p Las observaciones son de escala de razón cuando existe una unidad de medida que permite cuantificar la distancia existente entre dos observaciones y existe un cero absoluto. En este tipo de escala se encuentra la mayoría de las variables (caracteres cuantitativos) como el peso, salario, nivel de inventario, la edad, entre otros.
 
@@ -313,18 +313,18 @@
           img(src='@/assets/curso/temas/tema2/t2-img26.png', alt='Texto que describa la imagen').m-auto
 
       .col-lg-7    
-        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Tablas de frecuencia")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").p-4
+          .row(titulo="Tablas de frecuencia").p-4
             p Cuando la muestra presenta un alto número de datos es necesario organizarlos en una tabla de frecuencia (distribución de frecuencias). Este tipo de tabla es un método para presentar la información resumida por distintas categorías, valores o intervalos de carácter x y, por las siguientes frecuencias: absoluta (f), relativa (h), absoluta acumulada (H) y relativa acumulada (F). Para conocer más acerca de los tipos de frecuencia puede revisar el documento, Tipos de frecuencia.
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo2-Frecuencia.pdf')" target="_blank")
+            a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo2-Frecuencia.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
-                p.text-withe Anexo. Tipos de frecuencia.           
-          .row(titulo="Gráficos estadísticos")
+                p Anexo. Tipos de frecuencia.
+          .row(titulo="Gráficos estadísticos").p-4
             p Son recursos visuales que permiten comunicar la información, se considera en un instrumento estadístico para analizar los datos en forma eficiente y desde diferentes niveles de lectura.
 
-          .row(titulo="Gráficos para datos categóricos")
+          .row(titulo="Gráficos para datos categóricos").p-4
             p De acuerdo con el tipo de frecuencia se pueden encontrar gráficos que ayudan a visualizar y a categorizar los datos. En este tipo de esquemas se encuentran los que son de tipo barra, torta, arañas, barras acumuladas, pictogramas, anillos, entre otros.
 
     .row.justify-content-around.align-items-center
@@ -335,37 +335,37 @@
     .row.justify-content-around.align-items-center.mt-5
       p A continuación podrá estudiar los tipos de gráficos para datos categóricos propuestos por Castellanos, M. & Obando, J. (2021),  los cuales serán citados textualmente, (p. 13 – 16):
 
-    .row.justify-content-center
-      .col-lg-6
-        .tarjeta.tarjeta-slide.arriba.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+    .row.justify-content-around.align-items-center
+      .col-lg-6.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover1
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-3
+            .tarjeta-slide__contenido.p-5
               p Permite representar los elementos de la variable de estudio con los valores obtenidos en la frecuencia absoluta o relativa. En el eje X están las variables y en el eje Y el valor de las frecuencias. 
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-img28.png')})`}")
 
-      .col-lg-6
-        .tarjeta.tarjeta-slide.arriba.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+      .col-lg-6.mt-3
+        .tarjeta.tarjeta-slide.arriba.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover1
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-img29.png')})`}")
-            .tarjeta-slide__contenido.py-5.p-3
+            .tarjeta-slide__contenido.p-5
               p Denominado también “tartas” #[i (pie)], consiste en un círculo dividido en tantas partes o porciones como valores de frecuencia relativa existan, a cada valor de frecuencias relativa le corresponde en forma proporcional un arco de círculo.
               p.mt-2 La lectura de estos gráficos es directa, se lo hace teniendo en cuenta el valor del porcentaje propuesto en cada unidad de variable. Una interpretación más general estará amarrada al objetivo de la investigación que generó la pregunta.
 
-    .row.justify-content-center.mt-3
-      .col-lg-6
-        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+    .row.justify-content-around.align-items-center
+      .col-lg-6.mt-3
+        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover1
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-3
+            .tarjeta-slide__contenido.p-5
               p Una gráfica de radar, también conocida como un “diagrama de araña”, es una herramienta muy útil para mostrar visualmente los valores de una frecuencia relativa o absoluta. Proporciona la misma información de un diagrama de barras o de una torta. Es una excelente alternativa para representar la información de los datos propuestos en las frecuencias relativas, brinda la misma información, pero desde otra visualización.
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-img30.png')})`}")
 
-      .col-lg-6
-        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false")
+      .col-lg-6.mt-3
+        .tarjeta.tarjeta-slide.abajo.color-primario4(@mouseover="indicadorTarjetaSlide = false").tarjeta-Hoover1
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-img31.png')})`}")
-            .tarjeta-slide__contenido.py-5.p-3
+            .tarjeta-slide__contenido.p-5
               p Otra de las formas de representar las frecuencias relativas en variables categorías lo constituyen los anillos o los sectores. Son pequeños sectores en forma de un aro o anillo, divido en forma proporcional de acuerdo con el valor de dicha frecuencia.
               p.mt-2 Los diagramas para las frecuencias absolutas acumuladas, denominados “diagramas integrales”, no tienen sentido para las variables categóricas, se observarán en el contexto de variables numéricas, enteras y continuas.
 

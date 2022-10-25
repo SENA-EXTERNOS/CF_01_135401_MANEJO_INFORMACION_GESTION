@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Los clientes, el servicio y la comunicación organizacional',
+    componenteFormativo: 'Recolección de información y bases de datos',
     descripcionCurso:
       'Prestar un excelente servicio al cliente se ha convertido en la llave estratégica para la mayoría de los negocios, pues conseguir y mantener los clientes implica calidad, imagen, rentabilidad y competitividad. Es así como este componente formativo presenta una descripción desglosada sobre cada uno de los elementos necesarios para la estructuración de un plan de servicios empresarial completo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

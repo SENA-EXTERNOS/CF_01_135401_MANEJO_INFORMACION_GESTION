@@ -149,6 +149,10 @@
   width: 184%
   background-color: #e8e8e8;
 
+@media ( max-width: 500px )
+  .tabs-a__tab
+    width: 100%
+
 .tabs-a__content-item--active
   margin-left: 135px
 
@@ -207,7 +211,11 @@
 //tamaño slyder tema 1---------------------------
 .tarjeta-slyder
   width: 100%
-  height: 293px
+  height: 270px
+
+@media ( max-width: 500px )
+  .tarjeta-slyder
+    width: 80%
 
 
 ///custom linea tiempo C tema 2  
@@ -259,7 +267,7 @@
 
 .anexo
   display: block
-  background-color: #4c53b5
+  background-color: #f3f9ff
   position: relative
   margin-left: 30px
   padding: 20px
@@ -270,10 +278,7 @@
 
 .anexo *
     line-height: 1.2
-    color: #ffffff
-
-.anexo:active, .anexo:focus, .anexo:hover
-    background-color: #177be5
+    color: #2196F3;
 
 /// color fondo tarjetas finales tema 2
 .color-primario4
@@ -419,7 +424,25 @@
     border-bottom-right-radius: 30px
 
 
+// custom tarjeta flip tema 2
+.tarjeta-Hoover1
+  width: 520px !important
+  height: 340px !important
 
+@media ( max-width: 500px )
+  .tarjeta-Hoover1
+    width: 370px !important
+    height: 420px !important
+
+// custom tarjeta flip tema 4
+.tarjeta-Hoover
+  width: 330px !important
+  height: 300px !important
+
+@media ( max-width: 500px )
+  .tarjeta-Hoover
+    width: 350px !important
+    height: 300px !important
 
 //animación imágenes decorativas banner principal----------------------
 @keyframes scale
