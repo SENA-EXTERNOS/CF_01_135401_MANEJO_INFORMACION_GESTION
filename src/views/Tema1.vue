@@ -18,13 +18,14 @@
       SlyderA(tipo="b")
         .row.p-4
           .col-lg-6.mb-4.mb-md-0
-            p El diccionario de la Universidad de Cambridge establece que los datos son “información, especialmente hechos o números, recopilados para ser examinados, considerados y utilizados para ayudar en la toma de decisiones; o información en forma electrónica que puede ser almacenada y utilizada por un computador”. Por lo anterior, se puede concluir que la palabra ‘dato’ está relacionada con el procesamiento al que se puede someter y extraer información para la tomar decisiones. 
+            p El diccionario de la Universidad de Cambridge establece que los datos son “información, especialmente hechos o números, recopilados para ser examinados, considerados y utilizados para ayudar en la toma de decisiones; o información en forma electrónica que puede ser almacenada y utilizada por un computador”. Por lo anterior, se puede concluir que la palabra ‘dato’ está relacionada con el procesamiento al que se puede someter y extraer información para la toma de decisiones. 
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/t1-img2.png', alt='Texto que describa la imagen')
         .row.p-4
           .col-lg-6.mb-4.mb-md-0
             p Los datos se consideran uno de los activos más importantes para las organizaciones, es frecuente que quien tenga la información tiene el poder, puesto que la información es la base de todo proceso que se quiera realizar en el entorno. El desarrollo de las tecnologías de la información (TIC) han facilitado el acceso a gran cantidad de datos; acción que genera la necesidad de gestionar adecuadamente la información, y en especial la denominada ‘sensible’. 
+            p Gómez, I et al. (2018), en su libro #[i Calidad de Datos] indica que “la transformación digital está afectando a todos los sectores económicos y sociales. Convirtiendo a los datos en la base para la toma de decisiones y el habilitador más potente para cualquier organización”. (p. 25). Es por ello que las organizaciones deben estar a la vanguardia tecnológica, teniendo como objetivo el uso adecuado y seguro de la información presentada en el entorno. 
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/t1-img3.png', alt='Texto que describa la imagen')
@@ -51,7 +52,7 @@
         .bloque-texto-b.color-primario1.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Después de conocer algunos planteamientos de lo que significa la recolección de datos se revisará para qué son útiles. Para ello, Dunstan, J. et al. (2022), en Una mirada a la era de los datos, plantean que “el dato es una representación parcial de un fenómeno, que puede ser registrada, transmitida, almacenada y procesada a fin de obtener información del mismo”. (p. 14)
+            p.mb-0 Después de conocer algunos planteamientos de lo que significa la recolección de datos se revisará para qué son útiles. Para ello, Dunstan, J. et al. (2022), en #[em Una mirada a la era de los datos], plantean que “el dato es una representación parcial de un fenómeno, que puede ser registrada, transmitida, almacenada y procesada a fin de obtener información del mismo”. (p. 14)
             br
             br
             .row.justify-content-end
@@ -99,6 +100,9 @@
     .row.mt-5.justify-content-center.align-items-center.align-items-lg-stretch
       img(src="@/assets/curso/temas/tema1/t1-img7.png", alt="Texto que describa la imagen")        
       figcaption Nota. El ciclo de vida del dato presenta la ruta que transitan los datos desde su generación hasta su interpretación. Adaptado de Wing, J. (p. 2), 2019. #[i The Data Life Cycle]. https://hdsr.mitpress.mit.edu/pub/577rq08d/release/3.
+
+      p.mt-4 Por otro lado, algunas de las ventajas que ofrece el proceso de recolección de datos son las siguientes:
+
 
     .row.justify-content-center.mt-5
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -150,7 +154,7 @@
               p Es un mecanismo de recolección popular que permite obtener datos directamente de los sujetos de interés. Para garantizar de forma correcta su diseño es necesario tener en cuenta las variables requeridas y formular preguntas que permitan cumplir los objetivos. Esta técnica puede incluir preguntas abiertas o cerradas dependiendo de los datos requeridos; la construcción de las preguntas y las opciones de respuesta obedecerán a la calidad de los datos obtenidos. Es por ello que un cuestionario o encuesta debe garantizar un proceso ágil de recolección.
           .tarjeta.p-4(style="background-color:#ffebf1" titulo="Grupos focales")
             .row
-              p Consiste en desarrollar una entrevista colectiva que permite contrastar las respuestas de los participantes y fomentar la discusión sobre el tema tratado, de esta manera es posible enriquecer los datos y ver las diversas perspectivas sobre una problemática. Su efectividad depende de la capacidad del moderador para controlar la discusión y evitar que se desvié o se convierta en un debate; además él será quien genere un ambiente de confianza entre los participantes y observe aspectos concernientes al lenguaje no verbal y a las reacciones de los participantes.
+              p Consiste en desarrollar una entrevista colectiva que permite contrastar las respuestas de los participantes y fomentar la discusión sobre el tema tratado, de esta manera es posible enriquecer los datos y ver las diversas perspectivas sobre una problemática. Su efectividad depende de la capacidad del moderador para controlar la discusión y evitar que se desvíe o se convierta en un debate; además él será quien genere un ambiente de confianza entre los participantes y observe aspectos concernientes al lenguaje no verbal y a las reacciones de los participantes.
           .tarjeta.p-4(style="background-color:#ffebf1" titulo="Entrevistas")
             .row
               p A diferencia del grupo focal, las entrevistas son un tipo de herramienta que se realiza de manera individual, y consiste en la aplicación de un cuestionario que puede ser estructurado o no. Antes de aplicarse se debe definir las variables a identificar para obtener los datos adecuados. Esta herramienta requiere de empatía e interacción con el entrevistado, así crear un ambiente cómodo que certifique el éxito en su aplicación. 

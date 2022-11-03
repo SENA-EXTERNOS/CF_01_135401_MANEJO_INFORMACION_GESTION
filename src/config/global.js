@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Recolección de información y bases de datos',
     descripcionCurso:
-      'Prestar un excelente servicio al cliente se ha convertido en la llave estratégica para la mayoría de los negocios, pues conseguir y mantener los clientes implica calidad, imagen, rentabilidad y competitividad. Es así como este componente formativo presenta una descripción desglosada sobre cada uno de los elementos necesarios para la estructuración de un plan de servicios empresarial completo.',
+      'La recolección de datos ha cobrado gran importancia en la actualidad gracias a su utilidad para anticipar tendencias a través del análisis de la información obtenida por distintas fuentes o métodos. Se hace necesario comprender lo relacionado a este proceso, su relación con las bases de datos y su contribución en entornos organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

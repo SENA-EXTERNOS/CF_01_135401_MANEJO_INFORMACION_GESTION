@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/t3-img1.png", alt="Texto que describa la imagen")
       .col-lg-7
-        p.mt-2 Una base de datos (BD) es un repositorio de información que se encuentra organizado de tal forma que permite al usuario acceder, gestionar y actualizar los datos de forma sencilla.. Para conocer más acerca de las bases de datos lo invitamos a ver el siguiente video:
+        p.mt-2 Una base de datos (BD) es un repositorio de información que se encuentra organizado de tal forma que permite al usuario acceder, gestionar y actualizar los datos de forma sencilla. Para conocer más acerca de las bases de datos lo invitamos a ver el siguiente video:
 
     .row.mt-5
       .video
@@ -130,7 +130,7 @@
               .col-lg-5
                 img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/t3-img6.png', alt='')        
               .col-lg-7
-                p Este es el primer paso en el procesamiento de datos y consiste en extraen los datos de diferentes fuentes, pueden ser formatos de texto, almacenes de datos, tablas y matrices generadas por fuentes externas.
+                p Este es el primer paso en el procesamiento de datos y consiste en extraer los datos de diferentes fuentes, pueden ser formatos de texto, almacenes de datos, tablas y matrices generadas por fuentes externas.
         
         .row.justify-content-center.align-items-start(titulo="Preparación de datos").p-3
           .col-lg-10
@@ -205,10 +205,11 @@
 
     .row.justify-content-center
       .col-lg-11.mb-5.mb-lg-0
+        hr.color-linea.my-5.mb-0
         .bloque-texto-b.color-primario3.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Guillermo, P. (s.f), en Noción y estructura del dato citando a Comboni, S. & Juárez, J. (Introducción a las técnicas de investigación), afirman que “La codificación es un procedimiento técnico mediante el cual, los datos obtenidos se clasifican en categorías y se traducen en símbolos, ya sean cifras o letras; es decir, se asigna a cada opción de respuestas un número o una letra que permita tabularla rápidamente.” (p. 5).
+            p.mb-0 Guillermo, P. (s.f), en #[em Noción y estructura del dato] citando a Comboni, S. & Juárez, J. #[em (Introducción a las técnicas de investigación)], afirman que “La codificación es un procedimiento técnico mediante el cual, los datos obtenidos se clasifican en categorías y se traducen en símbolos, ya sean cifras o letras; es decir, se asigna a cada opción de respuestas un número o una letra que permita tabularla rápidamente.” (p. 5).
             br
             .row.justify-content-end
               p.text-bold.texto-alineado4 Guillermo, P. (s.f)
@@ -264,7 +265,7 @@
               figure
                 img(src="@/assets/curso/temas/tema3/t3-img16.png", alt="alt").numero
             .col
-              p Dificultades o barreras de comunicación en la organización.
+              p Perfeccionamiento del análisis y comparación de los diferentes fragmentos relacionados con cada tema, concepto y propósito.
 
     .row.justify-content-center.mt-4
       p Una vez realizada la codificación de los datos se puede proceder a la confección de la matriz de datos, la cual no es más que el ordenamiento de los datos para su posterior análisis.

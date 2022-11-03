@@ -3,14 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-acento-botones.mb-5
-      .row.mb-2
-        h5 Gestión del desarrollo administrativo e innovación
-      .row
-        span Síntesis: Introducción a la administración
-      img(src="@/assets/curso/temas/sintesis-logo.svg", alt="alt").imagen-sintesis-1
-
-    p.mt-2 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
+    p.mt-5.mb-5 A continuación, se presentan los principales contenidos del componente formativo, en él encontrará información relevante para iniciar la exploración de la estadística como herramienta que facilita los procesos de gestión y análisis de información.
 
     .row.justify-content-center
       .col-lg-10.mb-5

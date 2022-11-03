@@ -19,7 +19,7 @@
         .bloque-texto-b.color-primario2.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Peña, D. (2015) en Fundamentos de estadística, plantea que “la estadística actual es el resultado de la unión de dos disciplinas que evolucionan independientemente hasta confluir en el siglo XIX: la primera es el cálculo de probabilidades, que nace en el siglo XVII como teoría matemática de los juegos de azar; la segunda es la «estadística» (o ciencia del Estado, del latín Status), que estudia la descripción de datos y tiene unas raíces más antiguas. La integración de ambas líneas de pensamiento da lugar a una ciencia que estudia cómo obtener conclusiones de la investigación empírica mediante el uso de modelos matemáticos.” (p. 21).
+            p.mb-0 Peña, D. (2015) en #[em Fundamentos de estadística], plantea que “la estadística actual es el resultado de la unión de dos disciplinas que evolucionan independientemente hasta confluir en el siglo XIX: la primera es el cálculo de probabilidades, que nace en el siglo XVII como teoría matemática de los juegos de azar; la segunda es la «estadística» (o ciencia del Estado, del latín Status), que estudia la descripción de datos y tiene unas raíces más antiguas. La integración de ambas líneas de pensamiento da lugar a una ciencia que estudia cómo obtener conclusiones de la investigación empírica mediante el uso de modelos matemáticos.” (p. 21).
             br
             .row.justify-content-end
               p.text-bold.texto-alineado2 Peña, D. (2015)
@@ -89,7 +89,7 @@
               img(src='@/assets/curso/temas/tema2/t2-img7.png', alt='Texto que describa la imagen')
         .row(titulo="Análisis causal").p-4
           .col-lg-7
-            p Este tipo de análisis permite establecer relaciones de causa y efecto, identificar la influencia mutua de variables, predecir y reconocer la causa de este tipo de influencia. Además, este análisis determina aspectos como la afectación de las ventas en los productos de un portafolio respecto al día que aumentan la ventas del producto estrella, pero no las causas de este fenómeno; en otras palabras, el análisis inferencial permite identificar la relación, pero para conocer las causas es necesario implementar un análisis causal.
+            p Este tipo de análisis permite establecer relaciones de causa y efecto, identificar la influencia mutua de variables, predecir y reconocer la causa de este tipo de influencia. Además, este análisis determina aspectos como la afectación de las ventas en los productos de un portafolio respecto al día que aumentan las ventas del producto estrella, pero no las causas de este fenómeno; en otras palabras, el análisis inferencial permite identificar la relación, pero para conocer las causas es necesario implementar un análisis causal.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img8.png', alt='Texto que describa la imagen')
@@ -188,13 +188,15 @@
         h2 2.2. Medidas de dispersión y tipos de variables
       
       p Luego de conocer las diferentes técnicas de muestreo, entraremos a analizar otro aspecto importante: #[strong las medidas de dispersión.]
-
+    
+    
     .row.justify-content-center
       .col-lg-11.mb-5.mb-lg-0
+        hr.color-linea.my-5.mb-0
         .bloque-texto-b.color-primario2.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            p.mb-0 Ramos, F. & Guerra, R (2019), definen las medidas de dispersión como “un rasgo principal de los datos es su dispersión o amplitud, que se refiere a su variabilidad, a la evaluación de cuán separados o extendidos están estos datos, o bien cuánto difieren unos de otros”. (Introducción a los métodos estadísticos, p. 45). Otro concepto clave en las medidas de dispersión es ‘la variación’ que es el grado en que los datos numéricos tienden a extenderse alrededor de un valor, generalmente el valor medio. (Ramos, F. & Guerra, R (2019).
+            p.mb-0 Ramos, F. & Guerra, R (2019), definen las medidas de dispersión como “un rasgo principal de los datos es su dispersión o amplitud, que se refiere a su variabilidad, a la evaluación de cuán separados o extendidos están estos datos, o bien cuánto difieren unos de otros”. #[em (Introducción a los métodos estadísticos, p. 45)]. Otro concepto clave en las medidas de dispersión es ‘la variación’ que es el grado en que los datos numéricos tienden a extenderse alrededor de un valor, generalmente el valor medio. (Ramos, F. & Guerra, R (2019).
             br
             br
             .row.justify-content-end
