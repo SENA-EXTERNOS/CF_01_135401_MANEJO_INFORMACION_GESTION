@@ -118,6 +118,11 @@
           .cajon.cajon.color-secundario3.p-4.mt-5
             p Los aplicativos mencionados permiten tabular y visualizar la información estadística, facilitando su sistematización y análisis; además automatizan los procesos, y se pueden articular con los sistemas de información organizacional contribuyendo al flujo de información.  La elección del tipo de aplicativo depende de diversos criterios y dentro de los cuales se encuentran los requerimientos de manejo de la información a nivel de la organización, tecnología básica disponible, capacitación de los colaboradores y disponibilidad presupuestal.
 
+      .row.justify-content-around.align-items-center
+        .col-10
+          .cajon.cajon.color-secundario2.p-4.mt-4
+            p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a resolver la actividad didáctica para reforzar los conceptos estudiados.
+
 </template>
 
 <script>
