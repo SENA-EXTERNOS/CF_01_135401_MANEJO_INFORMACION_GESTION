@@ -2,11 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-puzzle-piece" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span
-          i.fas.fa-puzzle-piece
-      h1 Actividad didáctica
+
         
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -15,12 +11,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
-          h2 Los clientes, el servicio y la comunicación organizacional
-        p.mb-4 Apreciado aprendiz, a continuación encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo. El servicio es un actividad o acontecimiento planeado y organizado que convoca y reúne a una determinada cantidad de personas en un mismo lugar y al mismo tiempo.
+          h2 Recolección de información y bases de datos
+        p.mb-4 En este ejercicio se evaluará la aprehensión de los conceptos desarrollados. Arrastre el concepto hasta la casilla con el enunciado o definición que corresponda.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Falso / verdadero
+              p.fw-bold.mb-0  Arrastrar y soltar
             .col-auto
               a.boton.boton--b.texto-blanco(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar

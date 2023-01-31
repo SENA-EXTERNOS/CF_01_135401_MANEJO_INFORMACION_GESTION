@@ -58,12 +58,12 @@
         .tarjeta.color-acento-contenido.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema4/t4-img6.png")
+              img(src="@/assets/curso/temas/tema4/img-6.png")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tamaño de la muestra y cómo calcularlo 
-                  p.text-small Documento
+                  p.text-small Para conocer y calcular el tamaño de la muestra se invita a revisar el documento Tamaño de la muestra y cómo calcularlo.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo3-TamanoMuestra.pdf')" target="_blank")
                     span Descargar
@@ -121,7 +121,8 @@
       .row.justify-content-around.align-items-center
         .col-10
           .cajon.cajon.color-secundario2.p-4.mt-4
-            p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a resolver la actividad didáctica para reforzar los conceptos estudiados.
+            p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
 
 </template>
 

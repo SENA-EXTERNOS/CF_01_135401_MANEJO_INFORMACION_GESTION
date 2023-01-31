@@ -12,7 +12,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/t1-img1.png", alt="Texto que describa la imagen")
       .col-lg-7
-        p.mt-2 Para definir el significado de la recolección de datos es necesario precisar qué un dato según la RAE es “información sobre algo concreto que permite su conocimiento exacto o sirve para deducir las consecuencias derivadas de un hecho”. De acuerdo a lo anterior, se puede definir a la recolección de datos como la acción de reunir información sobre algo concreto. A continuación se conocerán otras definiciones relacionadas con la recolección de datos:    
+        p.mt-2 Para definir el significado de recolección de datos, es necesario precisar que un dato, según la RAE, es “información sobre algo concreto que permite su conocimiento exacto o sirve para deducir las consecuencias derivadas de un hecho”. De acuerdo con lo anterior, se puede definir la recolección de datos, como la acción de reunir información sobre algo concreto. A continuación, se conocerán otras definiciones relacionadas con la recolección de datos: 
 
     .tarjeta.tarjeta--slyder.p-4
       SlyderA(tipo="b")
@@ -24,8 +24,8 @@
               img(src='@/assets/curso/temas/tema1/t1-img2.png', alt='Texto que describa la imagen')
         .row.p-4
           .col-lg-6.mb-4.mb-md-0
-            p Los datos se consideran uno de los activos más importantes para las organizaciones, es frecuente que quien tenga la información tiene el poder, puesto que la información es la base de todo proceso que se quiera realizar en el entorno. El desarrollo de las tecnologías de la información (TIC) han facilitado el acceso a gran cantidad de datos; acción que genera la necesidad de gestionar adecuadamente la información, y en especial la denominada ‘sensible’. 
-            p Gómez, I et al. (2018), en su libro #[i Calidad de Datos] indica que “la transformación digital está afectando a todos los sectores económicos y sociales. Convirtiendo a los datos en la base para la toma de decisiones y el habilitador más potente para cualquier organización”. (p. 25). Es por ello que las organizaciones deben estar a la vanguardia tecnológica, teniendo como objetivo el uso adecuado y seguro de la información presentada en el entorno. 
+            p Los datos se consideran uno de los activos más importantes para las organizaciones, es frecuente que quien tenga la información tiene el poder, puesto que la información es la base de todo proceso que se quiera realizar en el entorno. El desarrollo de las tecnologías de la información (TIC) han facilitado el acceso a gran cantidad de datos; acción que genera la necesidad de gestionar adecuadamente la información y en especial la denominada ‘sensible’. 
+
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/t1-img3.png', alt='Texto que describa la imagen')
@@ -37,7 +37,7 @@
               img(src='@/assets/curso/temas/tema1/t1-img4.png', alt='Texto que describa la imagen')
         .row.p-4
           .col-lg-6.mb-4.mb-md-0
-            p Para Harari, Y. (2016), en #[i Homo Deus. Breve historia del mañana], concibe el denominado ‘dataísmo’ como “una religión en la que el valor de cualquier fenómeno o entidad se determina por su capacidad para contribuir al procesamiento de datos”. (p. 438), hecho que se ve reflejado en diversos escenarios donde se requiere formalizar procesos para la identificación, recolección y análisis de datos con base en la estructura de la estrategia organizacional.
+            p Para Harari, Y. (2016), en #[i Homo Deus. Breve historia del mañana], concibe el denominado ‘dataísmo’ como “una religión en la que el valor de cualquier fenómeno o entidad se determina por su capacidad para contribuir al procesamiento de datos” (p. 438), hecho que se ve reflejado en diversos escenarios donde se requiere formalizar procesos para la identificación, recolección y análisis de datos con base en la estructura de la estrategia organizacional.
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/t1-img5.png', alt='Texto que describa la imagen')
@@ -94,14 +94,13 @@
 
     .row.justify-content-around.align-items-center
       .titulo-sexto.color-acento-botones.mb-3.mt-4
-        h5 Figura 1.
-        span Ciclo de vida del dato
+        h5 Figura 1
+        p.mb-0
+          em Ciclo de vida del dato
 
     .row.mt-5.justify-content-center.align-items-center.align-items-lg-stretch
       img(src="@/assets/curso/temas/tema1/t1-img7.png", alt="Texto que describa la imagen")        
-      figcaption Nota. El ciclo de vida del dato presenta la ruta que transitan los datos desde su generación hasta su interpretación. Adaptado de Wing, J. (p. 2), 2019. #[i The Data Life Cycle]. https://hdsr.mitpress.mit.edu/pub/577rq08d/release/3.
-
-      p.mt-4 Por otro lado, algunas de las ventajas que ofrece el proceso de recolección de datos son las siguientes:
+      p.mt-4 Por otro lado, algunas de las ventajas que ofrece el proceso de recolección de datos, son las siguientes:
 
 
     .row.justify-content-center.mt-5
@@ -139,9 +138,10 @@
     .row.justify-content-center.mt-5
       ul.vineta-titulos
         li
-          h2.mb-0.h2-vineta Técnica y herramientas de recolección de datos
-      p Como se ha visto, la recolección de información permite acceder a los datos, y se logra a través de técnicas e instrumentos cuya selección obedece a aspectos como el objetivo de la recolección, tiempo requerido, recursos disponibles, conocimiento previo, entre otros.
-      p.mt-3 A continuación se presentan algunas de las técnicas utilizadas con mayor frecuencia para la recolección de datos:
+          h2.mb-0.h2-vineta Técnicas de recolección de datos 
+      p Como se ha visto, la recolección de información permite acceder a los datos y se logra a través de técnicas e instrumentos, cuya selección obedece a aspectos como el objetivo de la recolección, tiempo requerido, recursos disponibles, conocimiento previo, entre otros.
+      p A continuación, se presentan algunas de las técnicas utilizadas con mayor frecuencia para la recolección de datos:
+
 
     .row.justify-content-around.aling-items-center.mt-2
       .col-lg-9

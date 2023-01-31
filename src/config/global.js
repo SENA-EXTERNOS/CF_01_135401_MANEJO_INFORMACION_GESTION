@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Recolección de información y bases de datos',
     descripcionCurso:
-      'La recolección de datos ha cobrado gran importancia en la actualidad gracias a su utilidad para anticipar tendencias a través del análisis de la información obtenida por distintas fuentes o métodos. Se hace necesario comprender lo relacionado a este proceso, su relación con las bases de datos y su contribución en entornos organizaciones.',
+      'La recolección de datos ha cobrado gran importancia en la actualidad, gracias a su utilidad para anticipar tendencias, a través del análisis de la información obtenida por diferentes fuentes o métodos. Se hace necesario entonces, comprender lo relacionado con este proceso, su vinculación con las bases de datos y su contribución a los entornos organizaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -139,30 +139,30 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tipos de Muestreo',
+      tema: 'La recolección de datos',
       referencia:
-        'Habiaspensado (2020). <i>¿Qué es el MUESTREO y TIPOS DE MUESTREO?</i> [Video]. Youtube.',
+        'Habiaspensado. (2020). <i>¿Qué es el MUESTREO y TIPOS DE MUESTREO?</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=3LFDVSuaOkw',
     },
     {
-      tema: 'Medidas de Dispersión',
+      tema: 'La estadística',
       referencia:
-        'Matemóvil (2019). <i>Medidas de Dispersión o Variabilidad – Introducción.</i> [Video]. Youtube',
+        'Matemóvil. (2019). <i>Medidas de Dispersión o Variabilidad – Introducción </i>[video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Efg6G8vlVUA',
     },
     {
-      tema: 'Tablas de Frecuencia',
+      tema: 'La estadística',
       referencia:
-        'Daniel Carreón (2021). <i>Tabla de Frecuencias.</i> [Video]. Youtube.',
+        'Daniel Carreón. (2021). <i>Tabla de Frecuencias </i>[video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=JtB2w0QLRZ4',
     },
     {
-      tema: 'Flujos de trabajo',
+      tema: 'Herramientas de trabajo',
       referencia:
-        'GDX Group (2020). <i>Que es un Flujo de Trabajo y porque es importante en un Gestor Documental</i> (Video). Youtube',
+        'GDX Group. (2020). <i>Que es un Flujo de Trabajo y porque es importante en un Gestor Documental</i> [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Bph3b1t7ByU',
     },
@@ -171,7 +171,7 @@ export default {
     {
       termino: 'Análisis descriptivo',
       significado:
-        'proceso que permite hacer una descripción respecto a un conjunto de datos a partir de su comportamiento y características.',
+        'proceso que permite hacer una descripción respecto a un conjunto de datos, a partir de su comportamiento y características.',
     },
     {
       termino: 'Base de datos',
@@ -186,12 +186,12 @@ export default {
     {
       termino: 'Documento',
       significado:
-        'es un elemento material o digital que alberga información importante para las organizaciones en el proceso de toma de decisiones.',
+        'es un elemento material o digital que alberga información importante para las organizaciones, en el proceso de toma de decisiones.',
     },
     {
-      termino: 'Encuestas',
+      termino: 'Encuesta',
       significado:
-        'formulario estructurado que permite indagar a personas de interés de la organización sobre temas puntuales.',
+        'formulario estructurado que permite indagar a personas de interés, de la organización, sobre temas puntuales.',
     },
     {
       termino: 'Estadística',
@@ -206,7 +206,7 @@ export default {
     {
       termino: 'Observación',
       significado:
-        'técnica de recolección de datos que permite reconocer el comportamiento del objeto de estudio de manera directa.',
+        'técnica de recolección de datos, que permite reconocer el comportamiento del objeto de estudio, de manera directa.',
     },
     {
       termino: 'Procesamiento',
@@ -230,22 +230,22 @@ export default {
     },
     {
       referencia:
-        'Castellanos, M & Obando, J. (2021) <i>Gráficos estadísticos: guía práctica para estadística descriptiva.</i> Ediciones Universidad Cooperativa de Colombia. 2021_GP_Graficos estadisticos_VF.pdf (ucc.edu.co)',
+        'Castellanos, M. & Obando, J. (2021). <i>Gráficos estadísticos: guía práctica para estadística descriptiva.</i> Ediciones Universidad Cooperativa de Colombia. ',
       link:
         'https://repository.ucc.edu.co/bitstream/20.500.12494/36565/3/2021_GP_Graficos%20estadisticos_VF.pdf',
     },
     {
       referencia:
-        'Díaz, L., Torruco U., Martínez, M. & Varela, M.(2013). <i>Metodología de investigación en educación médica: La entrevista, recurso flexible y dinámico.</i> Investigación en Educación Médica.',
+        'Díaz, L., Torruco U., Martínez, M. & Varela, M. (2013). <i>Metodología de investigación en educación médica: La entrevista, recurso flexible y dinámico. </i>Investigación en Educación Médica.',
       link: 'https://www.redalyc.org/pdf/3497/349733228009.pdf',
     },
     {
       referencia:
-        'Dunstan, J. Maas, A. & Tobar, F. (2022). <i>Una mirada a la era de los datos.</i> Editorial Universitaria de Chile.',
+        'Dunstan, J., Maas, A. & Tobar, F. (2022). <i>Una mirada a la era de los datos.</i> Editorial Universitaria de Chile.',
     },
     {
       referencia:
-        'Fernández, L.(2007) <i>¿Cómo se elabora un cuestionario?.</i> Butlletí LaRecerca.',
+        'Fernández, L. (2007)<i> ¿Cómo se elabora un cuestionario? </i>Butlletí LaRecerca.',
       link:
         'https://www.ub.edu/idp/web/sites/default/files/fitxes/ficha8-cast.pdf',
     },
@@ -254,7 +254,7 @@ export default {
         'Gómez, I., Gualo, F., Merino, J., Muñoz-reja, I., Plattini M. & Rivas, B. (2018). Calidad de Datos. RA-MA.',
     },
     {
-      referencia: 'Guillermo, P. (s.f). <i>Noción y estructura del dato.</i>',
+      referencia: 'Guillermo, P. (s.f.).<i> Noción y estructura del dato. </i>',
       link:
         'http://metodos-comunicacion.sociales.uba.ar/wp-content/uploads/sites/219/2014/09/Abritta.pdf',
     },
@@ -270,7 +270,7 @@ export default {
     },
     {
       referencia:
-        'Hernández, Z. (2012). <i>Métodos de análisis de datos: apuntes.</i> Universidad de La Rioja',
+        'Hernández, Z. (2012). <i>Métodos de análisis de datos: apuntes.</i> Universidad de La Rioja.',
       link: 'https://dialnet.unirioja.es/servlet/libro?codigo=489791',
     },
     {
@@ -283,11 +283,11 @@ export default {
     },
     {
       referencia:
-        'Ramos, F., & Guerra, R. (2019). <i>Introducción a los métodos estadísticos.</i> La Habana, Editorial Universitaria.',
+        'Ramos, F. & Guerra, R. (2019). <i>Introducción a los métodos estadísticos. </i>Editorial Universitaria.',
     },
     {
       referencia:
-        'Universidad Militar Nueva Granada (s.f). <i>Sistemas de Work Flow.</i>',
+        'Universidad Militar Nueva Granada. (s.f.). <i>Sistemas de Work Flow. </i>',
       link:
         'http://virtual.umng.edu.co/distancia/ecosistema/ovas/ingenieria_industrial/sistemas_de_informacion_industrial/unidad_4/DM.pdf',
     },

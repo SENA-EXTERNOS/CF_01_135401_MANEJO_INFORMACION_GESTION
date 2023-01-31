@@ -138,7 +138,7 @@
               .col-lg-5
                 img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/t3-img7.png', alt='')        
               .col-lg-7
-                p Los datos sin procesar deben ser depurados, organizados y verificados de manera minuciosa para identificar posibles errores, eliminando los datos incorrectos (redundantes, incompletos o incorrectos),de esta forma tener datos de alta calidad, y con una mayor inteligencia empresarial.
+                p Los datos sin procesar deben ser depurados, organizados y verificados de manera minuciosa para identificar posibles errores, eliminando los datos incorrectos (redundantes, incompletos o incorrectos), de esta forma tener datos de alta calidad, y con una mayor inteligencia empresarial.
         
         .row.justify-content-center.align-items-start(titulo="Entrada de datos")
           .col-lg-10

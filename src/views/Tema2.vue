@@ -42,7 +42,7 @@
           .col-11
             figure
               img(src='@/assets/curso/temas/tema2/t2-img2.png', alt='Texto que describa la imagen')
-        h3.mt-3.text-center A. Estadística descriptiva
+        h3.mt-3.text-center Estadística descriptiva
         p.text-center Según #[strong Bologna, E. (2018)], la estadística descriptiva provee una serie de procedimientos dirigidos a resumir, sintetizar y volver manejable la información para poder interpretarla y extraer conclusiones a partir del conjunto de datos que, de otra manera, serían ininteligibles. (Métodos estadísticos de investigación, p. 15).
       
       .col-md.tarjeta.color-secundario1.p-5
@@ -50,7 +50,7 @@
           .col-11
             figure
               img(src='@/assets/curso/temas/tema2/t2-img3.png', alt='Texto que describa la imagen')
-        h3.mt-3.text-center B. Estadística inferencial
+        h3.mt-3.text-center Estadística inferencial
         p.text-center #[strong Bologna, E. (2018)], indica que esta estadística proporciona los procedimientos para estudiar un subconjunto de elementos y generalizar las conclusiones obtenidas. Esta estadística analiza unas variables en una muestra, y estima, por inferencia, los valores de la población. Con la aplicación de ella se reducen costos, y disminuye el tiempo necesario para adelantar investigaciones; además, si se respetan los procedimientos de la estadística inferencial el error puede ser conocido y controlado.(p. 15)
 
     separador
@@ -95,7 +95,7 @@
               img(src='@/assets/curso/temas/tema2/t2-img8.png', alt='Texto que describa la imagen')
         .row(titulo="Análisis mecanicista").p-4
           .col-lg-7
-            p Predice y comprende la influencia entre diferentes variables siendo este análisis el más complejo porque determina cómo la alteración de los valores de una de las variables tiene impacto en las demás. Su complejidad lo hace poco utilizado debido a que requiere amplio conocimiento de los procesos a modelar. Un ejemplo de aplicabilidad de este análisis es conocer si el incremento en la inversión en publicidad y un aumento de la plantilla en el departamento de marketing influye en el incremento de ventas y cómo esta última influye en las dos anteriores.
+            p Predice y comprende la influencia entre diferentes variables, siendo este análisis el más complejo porque determina cómo la alteración de los valores de una de las variables, tiene impacto en las demás. Su complejidad lo hace ser poco utilizado, debido a que requiere amplio conocimiento de los procesos a modelar. Un ejemplo de aplicabilidad de este análisis, es el de conocer si el incremento en la inversión en publicidad y un aumento de la plantilla en el departamento de <i>marketing</i>, influye en el incremento de ventas y cómo esta última, influye en las dos anteriores.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img9.png', alt='Texto que describa la imagen')                                                                      
@@ -129,7 +129,7 @@
               .col-lg-5
                 img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/t2-img12.png', alt='')        
               .col-lg-7
-                p.mt-3 Dividir la población en listas proporcionales, y seleccionar un número determinado de individuos de cada lista de manera aleatoria hasta completar la muestra.
+                p.mt-3 Dividir la población en listas proporcionales y seleccionar una cantidad determinada de individuos de cada lista, de manera aleatoria, hasta completar la muestra.
         .row.justify-content-center.align-items-start(titulo="Muestreo estratificado")
           .col-lg-10
             .row              
@@ -213,7 +213,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Variación y medidas de dispersión.
-                  p.text-small Para ampliar más información sobre la variación revise el documento Variación y medidas de dispersión.
+                  p.text-small Para ampliar más información sobre la variación revise el documento.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1-Variacion.pdf')" target="_blank")
                     span Descargar
@@ -320,7 +320,7 @@
             p Cuando la muestra presenta un alto número de datos es necesario organizarlos en una tabla de frecuencia (distribución de frecuencias). Este tipo de tabla es un método para presentar la información resumida por distintas categorías, valores o intervalos de carácter x y, por las siguientes frecuencias: absoluta (f), relativa (h), absoluta acumulada (H) y relativa acumulada (F). Para conocer más acerca de los tipos de frecuencia puede revisar el documento, Tipos de frecuencia.
             a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo2-Frecuencia.pdf')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-doc.svg")
+                img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Anexo. Tipos de frecuencia.
           .row(titulo="Gráficos estadísticos").p-4
