@@ -1,1 +1,1 @@
-module.exports = 'Los clientes, el servicio y la comunicación organizacional'
+module.exports = 'Recolección de información y bases de datos'
