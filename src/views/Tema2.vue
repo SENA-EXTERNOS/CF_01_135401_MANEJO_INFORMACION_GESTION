@@ -271,7 +271,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-img24.png', alt='Texto que describa la imagen')          
             .col-md-6.mb-4.mb-md-0.p-3
-              p Representan una cualidad o atributo que clasifica a cada caso en una de varias categorías. Sus  valores no se asocian naturalmente a un número sino a una la situación más sencilla que clasifica cada caso en uno de dos grupos (hombre/mujer).
+              p Representan una cualidad o atributo que clasifica a cada caso en una de varias categorías. Sus valores no se asocian naturalmente a un número, sino a una la situación más sencilla que clasifica cada caso en uno de dos grupos (hombre/mujer). 
               p.mt-3 Son datos dicotómicos o binarios, en muchas ocasiones este tipo de clasificación no es suficiente y se requiere de un mayor número de categorías para su clasificación como nacionalidad, profesión, entre otros.
               p.mt-3 En el proceso de observación de estas variables se pueden utilizar dos escalas nominales u ordinarias, además estas pueden codificarse a través de números para facilitar su procesamiento, pero sin olvidar qué tipo de variables son.
               p.mt-3 Una de las escalas más utilizadas en las variables cualitativas es ‘la escala de Likert’, en ella se establece una codificación ordenada y frecuentemente del 1 al 5 o también se utiliza la escala de Likert modificada con la de ‘la escala Thurstone’ de 10 puntos. La selección de la escala es basada en lo que el investigador desee lograr y las comparaciones que quiera realizar en la propia investigación o con otros trabajos desarrollados anteriormente. (Ramos, F. & Guerra, R, 2019, p. 11).
@@ -351,7 +351,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img.color-primario4(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/t2-img29.png')})`}")
             .tarjeta-slide__contenido.p-5
-              p Denominado también “tartas” #[i (pie)], consiste en un círculo dividido en tantas partes o porciones como valores de frecuencia relativa existan, a cada valor de frecuencias relativa le corresponde en forma proporcional un arco de círculo.
+              p Denominado también “tartas” #[i (pie)], consiste en un círculo dividido en tantas partes o porciones como valores de frecuencia relativa existan, a cada valor de frecuencias relativas le corresponde en forma proporcional un arco de círculo.
               p.mt-2 La lectura de estos gráficos es directa, se lo hace teniendo en cuenta el valor del porcentaje propuesto en cada unidad de variable. Una interpretación más general estará amarrada al objetivo de la investigación que generó la pregunta.
 
     .row.justify-content-around.align-items-center

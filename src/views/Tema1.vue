@@ -24,7 +24,7 @@
               img(src='@/assets/curso/temas/tema1/t1-img2.png', alt='Texto que describa la imagen')
         .row.p-4
           .col-lg-6.mb-4.mb-md-0
-            p Los datos se consideran uno de los activos más importantes para las organizaciones, es frecuente que quien tenga la información tiene el poder, puesto que la información es la base de todo proceso que se quiera realizar en el entorno. El desarrollo de las tecnologías de la información (TIC) han facilitado el acceso a gran cantidad de datos; acción que genera la necesidad de gestionar adecuadamente la información y en especial la denominada ‘sensible’. 
+            p Los datos se consideran uno de los activos más importantes para las organizaciones, es frecuente que quien tenga la información tiene el poder, puesto que la información es la base de todo proceso que se quiera realizar en el entorno. El desarrollo de las tecnologías de la información (TIC) han facilitado el acceso a gran cantidad de datos; acción que genera la necesidad de gestionar adecuadamente la información, y en especial la denominada ‘sensible’. 
 
           .col-lg-6
             figure
@@ -154,7 +154,7 @@
               p Es un mecanismo de recolección popular que permite obtener datos directamente de los sujetos de interés. Para garantizar de forma correcta su diseño es necesario tener en cuenta las variables requeridas y formular preguntas que permitan cumplir los objetivos. Esta técnica puede incluir preguntas abiertas o cerradas dependiendo de los datos requeridos; la construcción de las preguntas y las opciones de respuesta obedecerán a la calidad de los datos obtenidos. Es por ello que un cuestionario o encuesta debe garantizar un proceso ágil de recolección.
           .tarjeta.p-4(style="background-color:#ffebf1" titulo="Grupos focales")
             .row
-              p Consiste en desarrollar una entrevista colectiva que permite contrastar las respuestas de los participantes y fomentar la discusión sobre el tema tratado, de esta manera es posible enriquecer los datos y ver las diversas perspectivas sobre una problemática. Su efectividad depende de la capacidad del moderador para controlar la discusión y evitar que se desvíe o se convierta en un debate; además él será quien genere un ambiente de confianza entre los participantes y observe aspectos concernientes al lenguaje no verbal y a las reacciones de los participantes.
+              p Consiste en desarrollar una entrevista colectiva que permite contrastar las respuestas de los participantes y fomentar la discusión sobre el tema tratado, de esta manera es posible enriquecer los datos y ver las diversas perspectivas sobre una problemática. Su efectividad depende de la capacidad del moderador para controlar la discusión y evitar que se desvíe o se convierta en un debate; además, él será quien genere un ambiente de confianza entre los participantes y observe aspectos concernientes al lenguaje no verbal y a las reacciones de los participantes.
           .tarjeta.p-4(style="background-color:#ffebf1" titulo="Entrevistas")
             .row
               p A diferencia del grupo focal, las entrevistas son un tipo de herramienta que se realiza de manera individual, y consiste en la aplicación de un cuestionario que puede ser estructurado o no. Antes de aplicarse se debe definir las variables a identificar para obtener los datos adecuados. Esta herramienta requiere de empatía e interacción con el entrevistado, así crear un ambiente cómodo que certifique el éxito en su aplicación. 

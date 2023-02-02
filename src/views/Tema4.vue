@@ -51,8 +51,7 @@
     .row.justify-content-around.align-items-center
       .col-10
         .cajon.cajon.color-secundario2.p-4.mt-2
-          p Al momento de realizar un estudio es necesario determinar las condiciones del entorno en el cual se obtendrán datos, pues el entorno es muy grande, y es complejo abarcar todos los individuos que lo componen. La estadística plantea la posibilidad de definir un tamaño de muestra que es representativa de toda población; es debido aclarar que la población es el conglomerado de los individuos de interés para un estudio en particular y la muestra es el subconjunto de la población. Para conocer y calcular el tamaño de la muestra se invita a revisar el documento Tamaño de la muestra y cómo calcularlo.
-
+          p Al momento de realizar un estudio es necesario determinar las condiciones del entorno en el cual se obtendrán datos, pues el entorno es muy grande, y es complejo abarcar todos los individuos que lo componen. La estadística plantea la posibilidad de definir un tamaño de muestra que es representativa de toda población; es debido aclarar que la población es el conglomerado de los individuos de interés para un estudio en particular y la muestra es el subconjunto de la población. 
     .row.justify-content-around.align-items-center.mt-4
       .col-10
         .tarjeta.color-acento-contenido.p-3.mb-5
@@ -116,7 +115,7 @@
       .row.justify-content-around.align-items-center
         .col-10
           .cajon.cajon.color-secundario3.p-4.mt-5
-            p Los aplicativos mencionados permiten tabular y visualizar la información estadística, facilitando su sistematización y análisis; además automatizan los procesos, y se pueden articular con los sistemas de información organizacional contribuyendo al flujo de información.  La elección del tipo de aplicativo depende de diversos criterios y dentro de los cuales se encuentran los requerimientos de manejo de la información a nivel de la organización, tecnología básica disponible, capacitación de los colaboradores y disponibilidad presupuestal.
+            p Los aplicativos mencionados permiten tabular y visualizar la información estadística, facilitando su sistematización y análisis; además automatizan los procesos, y se pueden articular con los sistemas de información organizacional, contribuyendo al flujo de información.  La elección del tipo de aplicativo depende de diversos criterios y dentro de los cuales se encuentran los requerimientos de manejo de la información a nivel de la organización, tecnología básica disponible, capacitación de los colaboradores y disponibilidad presupuestal.
 
       .row.justify-content-around.align-items-center
         .col-10
