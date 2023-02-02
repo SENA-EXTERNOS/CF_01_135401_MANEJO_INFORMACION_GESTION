@@ -212,7 +212,7 @@
             p.mb-0 Guillermo, P. (s.f), en #[em Noción y estructura del dato] citando a Comboni, S. & Juárez, J. #[em (Introducción a las técnicas de investigación)], afirman que “La codificación es un procedimiento técnico mediante el cual, los datos obtenidos se clasifican en categorías y se traducen en símbolos, ya sean cifras o letras; es decir, se asigna a cada opción de respuestas un número o una letra que permita tabularla rápidamente.” (p. 5).
             br
             .row.justify-content-end
-              p.text-bold.texto-alineado4 Guillermo, P. (s.f)
+              p.text-bold.texto-alineado4 Guillermo, P. (s.f.)
             i.fas.fa-quote-right
 
     .row.justify-content-center.mt-2
