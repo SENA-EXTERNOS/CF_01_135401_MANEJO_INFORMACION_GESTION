@@ -17,7 +17,6 @@
     .row.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/U8hJwMXfI1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption VIDEO
 
     .row.justify-content-center.mt-5
       ul.vineta-titulos

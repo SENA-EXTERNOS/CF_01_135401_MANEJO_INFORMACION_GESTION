@@ -21,8 +21,8 @@
 
     .row.mt-5
       .video
-        iframe(width="560" height="315" src="https://youtu.be/yXIzRPDgE54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption VIDEO          
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yXIzRPDgE54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+     
 </template>
 
 <script>
