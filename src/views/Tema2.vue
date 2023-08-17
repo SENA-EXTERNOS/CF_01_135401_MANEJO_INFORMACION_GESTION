@@ -71,7 +71,7 @@
               img(src='@/assets/curso/temas/tema2/t2-img4.png', alt='Texto que describa la imagen')
         .row(titulo="Análisis exploratorio").p-4
           .col-lg-7
-            p Reconoce una comprensión básica de los datos al identificar características sobresalientes, inesperadas o con valores atípicos. Este tipo de análisis permite determinar las sucursales con un número superior de ventas, productos con mayor #[i stock], principales discrepancias entre el producto más vendido y el menos vendido, diferencias en aspectos económicos entre dos poblaciones, entre otros. Este método es un proceso descriptivo, por ende debe realizarse sin ideas preconcebidas sobre la información que aportan los datos. De este modo, en aras de evitar el procesamiento de datos inapropiados, erróneos o inadvertidos lo más aconsejable es que este análisis exploratorio sea utilizado durante la etapa inicial de todo análisis de datos.
+            p Reconoce una comprensión básica de los datos al identificar características sobresalientes, inesperadas o con valores atípicos. Este tipo de análisis permite determinar las sucursales con un número superior de ventas, productos con mayor #[i stock], principales discrepancias entre el producto más vendido y el menos vendido, diferencias en aspectos económicos entre dos poblaciones, entre otros. Este método es un proceso descriptivo, por ende, debe realizarse sin ideas preconcebidas sobre la información que aportan los datos. De este modo, en aras de evitar el procesamiento de datos inapropiados, erróneos o inadvertidos lo más aconsejable es que este análisis exploratorio sea utilizado durante la etapa inicial de todo análisis de datos.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img5.png', alt='Texto que describa la imagen')
@@ -191,7 +191,7 @@
     
     
     .row.justify-content-center
-      .col-lg-11.mb-5.mb-lg-0
+      .col-lg-10.mb-5.mb-lg-0
         hr.color-linea.my-5.mb-0
         .bloque-texto-b.color-primario2.p-4
           .bloque-texto-b__texto
@@ -286,19 +286,19 @@
 
     .row.justify-content-around.aling-items-center.mt-4
       .col-lg-9
-        TabsA.color-acento-contenido
-          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala nominal")
+        TabsC.color-acento-contenido
+          .tarjeta.p-4.mb-3(style="background-color:#ffebf1" titulo="Escala nominal")
             .row
               p Las observaciones de un carácter nominal se pueden clasificar en varias categorías, excluyentes entre sí, entre las que no es posible establecer ninguna relación de orden u operar matemáticamente. En este tipo de escala se consideran los atributos categóricos como el sexo, estado civil, tipo de contrato laboral, lugar de nacimiento, sector de actividad económica, entre otros.
-          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala ordinal")
+          .tarjeta.p-4.mb-3(style="background-color:#ffebf1" titulo="Escala ordinal")
             .row
               p Las observaciones en escala ordinal se pueden clasificar en varias categorías, excluyentes entre sí, en ellas es posible establecer alguna relación de orden, pero no operar matemáticamente. Además, estas categorías se pueden ordenar, pero no cuantificar la diferencia entre ellas. En este tipo de escala se encuentran atributos ordinales como el nivel de ingresos, nivel de estudios, grado de satisfacción, entre otros.
-          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala de intervalo")
+          .tarjeta.p-4.mb-3(style="background-color:#ffebf1" titulo="Escala de intervalo")
             .row
               p Las observaciones en escala de intervalo se dan cuando existe una unidad de medida que permite cuantificar la distancia existente entre dos observaciones, siendo el cero arbitrario.
               p.mt-2 En este tipo de escala se consideran algunas variables (caracteres cuantitativos) como la temperatura en grados Celsius o en grados Fahrenheit, fechas, entre otros.
 
-          .tarjeta.p-4(style="background-color:#ffebf1" titulo="Escala de razón (proporción o cociente)")
+          .tarjeta.p-4.mb-3(style="background-color:#ffebf1" titulo="Escala de razón (proporción o cociente)")
             .row
               p Las observaciones son de escala de razón cuando existe una unidad de medida que permite cuantificar la distancia existente entre dos observaciones y existe un cero absoluto. En este tipo de escala se encuentra la mayoría de las variables (caracteres cuantitativos) como el peso, salario, nivel de inventario, la edad, entre otros.
 
@@ -307,7 +307,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/t2-img25.png', alt='Texto que describa la imagen').m-auto
     
-    p.mt-3 Así como en la estructura de datos las escalas de medición permiten organizar los datos en orden jerárquico, es importante conocer los diferentes tipos de estructuración de datos, en los cuales se encuentran las tablas de frecuencia, los gráficos estadísticos y los gráficos para datos categóricos. A continuación se dará una breve explicación de cada uno de ellos:
+    p.mt-3 Así como en la estructura de datos las escalas de medición permiten organizar los datos en orden jerárquico, es importante conocer los diferentes tipos de estructuración de datos, en los cuales se encuentran las tablas de frecuencia, los gráficos estadísticos y los gráficos para datos categóricos. A continuación, se dará una breve explicación de cada uno de ellos:
 
     .row.justify-content-around.aling-items-center.mt-2
       .col-lg-5(data-aos="zoom-in")
@@ -324,7 +324,7 @@
               .anexo__texto
                 p Anexo. Tipos de frecuencia.
           .row(titulo="Gráficos estadísticos").p-4
-            p Son recursos visuales que permiten comunicar la información, se considera en un instrumento estadístico para analizar los datos en forma eficiente y desde diferentes niveles de lectura.
+            p Son recursos visuales que permiten comunicar la información, se considera un instrumento estadístico para analizar los datos en forma eficiente y desde diferentes niveles de lectura.
 
           .row(titulo="Gráficos para datos categóricos").p-4
             p De acuerdo con el tipo de frecuencia se pueden encontrar gráficos que ayudan a visualizar y a categorizar los datos. En este tipo de esquemas se encuentran los que son de tipo barra, torta, arañas, barras acumuladas, pictogramas, anillos, entre otros.

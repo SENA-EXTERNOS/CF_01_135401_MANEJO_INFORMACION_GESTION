@@ -45,10 +45,10 @@
         div(x="65.5%" y="70%" tooltip="" numero="3")
           .h5.mb-2 Según su modelo de base de datos
           p #[strong ● Jerárquica:] los datos se organizan en forma de árbol invertido (conocido como raíz), en donde un nodo padre de información puede tener varios hijos. 
-          p.mt-2 #[strong ● De red:] es un modelo similar al jerárquico pero se diferencia de este porque permite que un mismo nodo tenga varios padres, ofreciendo una solución eficiente al problema de la redundancia de datos.
+          p.mt-2 #[strong ● De red:] es un modelo similar al jerárquico, pero se diferencia de este porque permite que un mismo nodo tenga varios padres, ofreciendo una solución eficiente al problema de la redundancia de datos.
           p.mt-2 #[strong ● Transaccionales:] son bases de datos cuyo único fin es el envío y recepción de datos a grandes velocidades, estas bases son poco comunes y están dirigidas, por lo general, al entorno de análisis de calidad, producción o industrial. Su propósito es recolectar y recuperar datos a la mayor velocidad posible, en este modelo la redundancia o duplicación no representa un problema.
           p.mt-2 #[strong ● Relacionales:] se utiliza para representar problemas reales y administrar datos de manera dinámica. Se fundamenta en el uso de relaciones que pueden considerarse en forma lógica como los conjuntos de datos llamados tuplas.
-          p.mt-2 #[strong ● Multidimensionales:] permiten desarrollar aplicaciones muy concretas como Cubos OLAP. Son muy similares a las bases de datos relacionales pero se diferencian de estas  porque presentan campos o atributos de dos tipos, es decir, pueden representar las diferentes dimensiones de la tabla e incluso las métricas que se desea aprender.
+          p.mt-2 #[strong ● Multidimensionales:] permiten desarrollar aplicaciones muy concretas como Cubos OLAP. Son muy similares a las bases de datos relacionales, pero se diferencian de estas  porque presentan campos o atributos de dos tipos, es decir, pueden representar las diferentes dimensiones de la tabla e incluso las métricas que se desea aprender.
           p.mt-2 #[strong ● Orientada a objetos:] este modelo es de reciente creación y es propio de los modelos informáticos. Tiene como propósito almacenar en la base de datos los objetos completos en cuanto a su estado y comportamiento.
           p.mt-2 #[strong ● Documentales:] consienten en la indexación de texto completo y en líneas generales. Este método permite realizar búsquedas más potentes ya que almacenan grandes volúmenes de información entre las cuales se encuentran registros históricos.
           p.mt-2 #[strong ● Deductivas:] permite hacer deducciones a través de inferencias, y principalmente se basa en reglas y hechos almacenados en la base de datos. Son llamadas bases de datos lógicas porque se basan en la lógica matemática.
@@ -203,7 +203,7 @@
           h2.mb-0.h2-vineta Técnicas de codificación
 
     .row.justify-content-center
-      .col-lg-11.mb-5.mb-lg-0
+      .col-lg-10.mb-5.mb-lg-0
         hr.color-linea.my-5.mb-0
         .bloque-texto-b.color-primario3.p-4
           .bloque-texto-b__texto
@@ -223,9 +223,9 @@
           p Asimismo, desde una perspectiva cualitativa, la codificación es un modo sistemático de desarrollar y refinar las interpretaciones de los datos. El proceso de codificación incluye la reunión y análisis de todos los datos que se refieren a temas, ideas, conceptos, interpretaciones y proposiciones. Durante esta etapa del análisis, lo que inicialmente fueron ideas e intuiciones vagas se refinan, expanden, descartan o desarrollan por completo.
 
     .row.justify-content-center.mt-4
-      p Para desarrollar ese sistema de categorías y codificación se pueden aplicar diversas técnicas. A continuación, se explicarán las cinco fases para codificar datos cualitativos:
+      p.mb-5 Para desarrollar ese sistema de categorías y codificación se pueden aplicar diversas técnicas. A continuación, se explicarán las cinco fases para codificar datos cualitativos:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.pe-5.mb-5
       .col-lg-9.position-relative
         .avatar
           figure

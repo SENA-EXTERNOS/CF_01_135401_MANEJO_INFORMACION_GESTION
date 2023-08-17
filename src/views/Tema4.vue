@@ -75,7 +75,7 @@
       p.mt-3 La tabulación es un proceso estadístico que permite agrupar los datos recolectados y presentarlos de una forma gráfica, así se facilita el análisis. Existen diversas herramientas que permiten realizar dicha acción, entre las que se destacan:
 
     .row.justify-content-center.mb-5.mt-5
-      .col-lg-9.position-relative
+      .col-lg-10.position-relative
         .avatar
           figure
             img(src="@/assets/curso/temas/tema4/t4-img5.png", alt="alt").imgTema4

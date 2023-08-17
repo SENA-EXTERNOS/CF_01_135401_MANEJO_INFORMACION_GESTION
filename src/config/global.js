@@ -256,7 +256,7 @@ export default {
     {
       referencia: 'Guillermo, P. (s.f.).<i> Noción y estructura del dato. </i>',
       link:
-        'http://metodos-comunicacion.sociales.uba.ar/wp-content/uploads/sites/219/2014/09/Abritta.pdf',
+        'https://dokumen.tips/documents/nocion-y-estructura-del-dato-guillermo-pablo-abritta.html?page=35',
     },
     {
       referencia:
@@ -271,7 +271,8 @@ export default {
     {
       referencia:
         'Hernández, Z. (2012). <i>Métodos de análisis de datos: apuntes.</i> Universidad de La Rioja.',
-      link: 'https://dialnet.unirioja.es/servlet/libro?codigo=489791',
+      link:
+        'https://www.unirioja.es/cu/zehernan/docencia/MAD_710/Lib489791.pdf',
     },
     {
       referencia:
