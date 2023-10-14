@@ -185,7 +185,7 @@
             p Permite establecer una estructura de datos extraídos desde archivos históricos no estructurados, facilitando la toma de datos, mitigando el desgaste operativo y generando plantillas de datos aptos para el análisis. Esta herramienta basa su solución en el uso de la Inteligencia Artificial (AI).
 
           .row(titulo="Almacén Operacional de Datos (ODS)").p-4
-            p Es un reporteador enlazado a los sistemas de información organizacional el cual garantiza que la información sea centralizada y presentada de acuerdo con las necesidades de análisis y toma de decisiones para los usuarios con acceso.
+            p Es un reporteador enlazado a los sistemas de información organizacional el cual garantiza, que la información sea centralizada y presentada de acuerdo con las necesidades de análisis y toma de decisiones para los usuarios con acceso.
 
 </template>
 

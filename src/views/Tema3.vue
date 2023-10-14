@@ -31,18 +31,18 @@
           figure
             img(src='@/assets/curso/temas/tema3/t3-img2.png', alt='Texto que describa la imagen')
 
-        div(x="28%" y="8%" tooltip="" numero="1")
+        div(x="28%" y="8%" tooltip="Según la variabilidad" numero="1")
           .h5.mb-2 Según la variabilidad:
           p #[strong ● Estáticas:] son bases de datos diseñadas en exclusiva para lectura y la cual almacena datos históricos para analizar su comportamiento a través del tiempo para hacer proyecciones, tomar decisiones y realizar inteligencia empresarial.
           p.mt-2 #[strong ● Dinámicas:] almacenan información que se puede modificar con el tiempo. Permiten actualizar, borrar y editar los datos, además de hacer operaciones fundamentales de consulta. Un ejemplo de este tipo de base de datos es la que utiliza el sistema de información de un supermercado.
 
-        div(x="70%" y="5.5%" tooltip="" numero="2")
+        div(x="70%" y="5.5%" tooltip="Según el Contenido" numero="2")
           .h5.mb-2 Según el Contenido
           p #[strong ● Bibliográficas:] contienen una fuente primaria que permite localizarla. Un registro típico de una base de datos bibliográfica contiene información sobre el autor, fecha de publicación, editorial, título, edición, de una determinada publicación, entre otras. Además  pueden contener un resumen o extracto de la publicación original.
           p.mt-2 #[strong ● De texto completo:] almacenan las fuentes primarias, como ejemplo se encuentran las guías telefónicas en formato electrónico.
           p.mt-2 #[strong ● Bibliotecas de información:] son bases de datos que almacenan diferente tipo de información relacionada con disciplinas científicas como química, ciencias de la vida o medicina, mismas que a su vez se dividen en varios subtipos. (Pulido et al.2019, p. 21).
 
-        div(x="65.5%" y="70%" tooltip="" numero="3")
+        div(x="65.5%" y="70%" tooltip="Según su modelo de base de datos" numero="3")
           .h5.mb-2 Según su modelo de base de datos
           p #[strong ● Jerárquica:] los datos se organizan en forma de árbol invertido (conocido como raíz), en donde un nodo padre de información puede tener varios hijos. 
           p.mt-2 #[strong ● De red:] es un modelo similar al jerárquico, pero se diferencia de este porque permite que un mismo nodo tenga varios padres, ofreciendo una solución eficiente al problema de la redundancia de datos.
@@ -118,12 +118,12 @@
 
     #t_3_2.titulo-segundo.color-acento-botones
       h2 3.2. La tabulación
-      p Durante el procesamiento se usan los datos brutos como elemento de entrada una vez ingresados, estos deben converger para producir un elemento de salida como informes u otras herramientas de análisis.
-      p.mt-2 A continuación, se indican los pasos a seguir para realizar el procesamiento de la información:
+    p Durante el procesamiento se usan los datos brutos como elemento de entrada una vez ingresados, estos deben converger para producir un elemento de salida como informes u otras herramientas de análisis.
+    p.mt-2 A continuación, se indican los pasos a seguir para realizar el procesamiento de la información:
 
     .tarjeta.tarjeta--tiempo.p-4(data-aos="fade-right")
       LineaTiempoC.color-primario(text-small).p-3
-        .row.justify-content-center.align-items-start(titulo="Recopilación de datos ").p-3
+        .row.justify-content-center.align-items-start(titulo="Recopilación<br> de datos ").p-3
           .col-lg-10
             .row
               .col-lg-5
@@ -131,7 +131,7 @@
               .col-lg-7
                 p Este es el primer paso en el procesamiento de datos y consiste en extraer los datos de diferentes fuentes, pueden ser formatos de texto, almacenes de datos, tablas y matrices generadas por fuentes externas.
         
-        .row.justify-content-center.align-items-start(titulo="Preparación de datos").p-3
+        .row.justify-content-center.align-items-start(titulo="Preparación<br> de datos").p-3
           .col-lg-10
             .row
               .col-lg-5
@@ -155,7 +155,7 @@
               .col-lg-7
                 p El procesamiento se puede realizar mediante técnicas de filtrado, análisis y visualización, e incluso con algoritmos de aprendizaje automático. El proceso puede variar dependiendo la fuente de los datos (base de datos, redes sociales, entre otros), y su uso previsto (examen de patrones de publicidad, determinar las necesidades del cliente, entre otros).
         
-        .row.justify-content-center.align-items-start(titulo="Interpretación de los datos")
+        .row.justify-content-center.align-items-start(titulo="Interpretación<br> de los datos")
           .col-lg-10
             .row
               .col-lg-5
@@ -164,7 +164,7 @@
                 p Es la etapa en que los datos son utilizables para los usuarios. Al traducir los datos se pueden leer en forma de gráficos, videos, imágenes, texto sin formato, entre otros.
                 p.mt-2 En este punto es posible comenzar a administrar los datos para los proyectos de análisis de información.
 
-        .row.justify-content-center.align-items-start(titulo="Almacenamiento de datos")
+        .row.justify-content-center.align-items-start(titulo="Almacenamiento<br> de datos")
           .col-lg-10
             .row
               .col-lg-5

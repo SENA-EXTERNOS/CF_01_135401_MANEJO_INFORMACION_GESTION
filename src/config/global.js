@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Recolección de información y bases de datos',
     descripcionCurso:
-      'La recolección de datos ha cobrado gran importancia en la actualidad, gracias a su utilidad para anticipar tendencias, a través del análisis de la información obtenida por diferentes fuentes o métodos. Se hace necesario entonces, comprender lo relacionado con este proceso, su vinculación con las bases de datos y su contribución a los entornos organizaciones.',
+      'La recolección de datos ha cobrado gran importancia en la actualidad, gracias a su utilidad para anticipar tendencias, a través del análisis de la información obtenida por diferentes fuentes o métodos. Se hace necesario entonces, comprender lo relacionado con este proceso, su vinculación con las bases de datos y su contribución a los entornos organizacionales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

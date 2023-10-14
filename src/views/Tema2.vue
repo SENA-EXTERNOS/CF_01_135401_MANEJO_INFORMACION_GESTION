@@ -65,7 +65,7 @@
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--roja")
         .row(titulo="Análisis descriptivo").p-4
           .col-lg-7
-            p Permite hacer descripciones respecto a un conjunto de datos con el fin de distinguir sus las características. Este método aporta el análisis de variables como el número de ventas realizadas, cantidad de clientes nuevos, unidades de producto disponibles en el inventario, entre otros.
+            p Permite hacer descripciones respecto a un conjunto de datos con el fin de distinguir sus características. Este método aporta el análisis de variables como el número de ventas realizadas, cantidad de clientes nuevos, unidades de producto disponibles en el inventario, entre otros.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/t2-img4.png', alt='Texto que describa la imagen')
@@ -109,7 +109,7 @@
 
     .tarjeta.tarjeta--tiempo.p-4(data-aos="fade-right")
       LineaTiempoC.color-primario(text-small).p-3
-        .row.justify-content-center.align-items-start(titulo="Muestreos no probabilísticos")
+        .row.justify-content-center.align-items-start(titulo="Muestreos probabilísticos")
           .col-lg-10
             .row
               .col-lg-5
@@ -332,7 +332,7 @@
     .row.justify-content-around.align-items-center
       .col-9
         .cajon.cajon.color-secundario.p-4.mt-3
-          p Para construir una tabla de frecuencia se tienen varias herramientas y una de las más usadas es el programa Excel. Este programa permite construir tablas que facilita el conteo y proceso de construcción; ya que permite crear en otras celdas la frecuencia deseada con el uso fórmulas, además replica la información de forma rápida obteniendo resultados exactos y sencillos.
+          p Para construir una tabla de frecuencia se tienen varias herramientas y una de las más usadas es el programa Excel. Este programa permite construir tablas que facilita el conteo y proceso de construcción; ya que permite crear en otras celdas la frecuencia deseada con el uso de fórmulas, además replica la información de forma rápida obteniendo resultados exactos y sencillos.
 
     .row.justify-content-around.align-items-center.mt-5
       p A continuación podrá estudiar los tipos de gráficos para datos categóricos propuestos por Castellanos, M. & Obando, J. (2021),  los cuales serán citados textualmente, (p. 13 – 16):
